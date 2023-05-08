@@ -1,1 +1,1 @@
-# spotify-etl-pipeline
+# Spotify-ETL-Pipeline
