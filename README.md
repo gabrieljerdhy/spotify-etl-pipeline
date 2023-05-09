@@ -4,7 +4,7 @@
 * This project involves constructing an ETL (Extract, Transform, and Load) pipeline on AWS utilizing the Spotify API. The pipeline will extract data from the Spotify API, transform it into a preferred format, and subsequently load it into a data storage system on AWS.
 
 ### Architecture
-![Architecture Diagram](https://github.com/gabrieljerdhy/spotify-etl-pipeline/blob/main/images/etl_pipeline_archi.jpeg)
+![Architecture Diagram](images/etl_pipeline_archi.jpeg)
 
 ### About Dataset/API
 Utilizing Python with the Spotify API enables interaction with Spotify's vast music collection and user information through the Python programming language. By taking advantage of the API, I effectively retrieved data from a playlist, which includes the music artist, album, and songs - [Spotify API](https://developer.spotify.com/documentation/web-api)
