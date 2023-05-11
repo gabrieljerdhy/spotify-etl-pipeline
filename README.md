@@ -33,7 +33,7 @@ pip install spotipy
 Extract Data from API -> Lambda Trigger -> Run Extract Code -> Store Raw Data -> Trigger Transform Function -> Transform Data and Load it -> Query it using Athena
 
 ### Part 1: Extraction
-* The page used for data extraction using Spotify API is: **[Playlist, Top Songs - Philippines](https://open.spotify.com/playlist/37i9dQZEVXbNBz9cRCSFkY)**
+* The page used for data extraction using Spotify API is: **[Playlist, Top Songs - Philippines](https://open.spotify.com/playlist/37i9dQZEVXbJVKdmjH0pON?si=6056369be0654082&nd=1)**
 * The python library used for data extraction is Spotipy, raw data extracted is in JSON format.
 * Deploy that data extraction code on AWS Lambda Function.
 * Run daily Trigger using CloudWatch to Automate.
