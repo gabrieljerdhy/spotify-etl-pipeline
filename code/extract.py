@@ -24,7 +24,7 @@ def lambda_handler(event, context):
 
     client = boto3.client("s3")
 
-    filename = "spotify_row" + str(datetime.now()) + ".json"
+    filename = "spotify_raw" + str(datetime.now()) + ".json"
 
     client.put_object(
         Bucket="spotify-etl-project-gab",
